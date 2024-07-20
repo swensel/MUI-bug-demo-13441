@@ -1,9 +1,9 @@
 import TestGrid from './components/TestGrid';
 
-export default function App() {
-  return (
-    <main>
-      <TestGrid />
-    </main>
-  );
-}
+const App = () => (
+  <main>
+    <TestGrid />
+  </main>
+);
+
+export default App;
